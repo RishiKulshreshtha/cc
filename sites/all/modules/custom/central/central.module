@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Custom module for custom requirement.
+ */
+
+/**
+ * Implements hook_form_alter().
+ */
+function central_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == "views_exposed_form") {
+    $form['#attributes']['class'][] = 'pull-left';
+    if (isset($form['first_name'])) {
+      $form['first_name']['#attributes'] = array('placeholder' => array(t('Search')));
+    }
+    if (isset($form['discipline_8'])) {
+      $form['discipline_8']['#options']['All'] = 'Discipline';
+    }
+    if (isset($form['commission_accepted_7'])) {
+      $form['commission_accepted_7']['#options']['All'] = 'Commissions';
+      $form['commission_accepted_7']['#options'][1] = 'Accepts Commissions';
+      $form['commission_accepted_7']['#options'][0] = 'No Commissions';
+    }
+  }
+}
+
+/**
+ * Implements hook_block_view_alter().
+ */
+function central_block_view_alter(&$data, $block) {
+  if ($block->delta == '-exp-civicrm-page_list_of_dm') {
+    $block->title = 'Find a Designer Maker';
+  }
+}
+
