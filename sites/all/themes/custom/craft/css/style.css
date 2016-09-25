@@ -1,0 +1,87 @@
+/**
+ * Place your custom styles here.
+ */
+body {
+  color: #666;
+}
+p {
+  line-height: 2;
+  padding: 10px 0;
+}
+span#dropdown-menu {
+  cursor: pointer;
+  font-size: 32px;
+}
+.page-designer-makers-listing h1.page-header {
+  background-color: #ed1c8b;
+  color: #fff;
+  padding: 25px 0;
+}
+body.page-designer-makers-listing {
+  background-color: #ccc;
+}
+h2.block-title {
+  padding: 0 0 25px 0;
+}
+section#block-views-exp-civicrm-page-list-of-dm {
+  background-color: #fff;
+}
+section#block-views-exp-civicrm-page-list-of-dm h2.block-title {
+  float: left;
+}
+form#views-exposed-form-civicrm-page-list-of-dm {
+  margin: 15px 0 0 15px;
+}
+.view-display-id-block_featured_dm .name {
+  font-size: 30px;
+  font-weight: 700;
+}
+.view-display-id-block_featured_dm .discipline_8 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.view-profile .btn-default, .view-profile .btn-default:active:hover {
+  background-color: #ed1c8b;
+}
+.view-display-id-page_list_of_dm .views-row {
+  text-align: center;
+  box-shadow: 0 0 7px #fff;
+  padding: 0;
+  margin: 30px 15px;
+}
+.view-display-id-page_list_of_dm .views-row:first-child {
+  margin-left: 0;
+}
+.view-display-id-page_list_of_dm .views-row .name {
+  background-color: #fff;
+  color: #666;
+  font-size: 25px;
+  padding: 25px;
+  text-decoration: none;
+}
+.view-display-id-page_list_of_dm .views-row :hover {
+  text-decoration: none;
+}
+.footer .address {
+  background-color: #fff;
+}
+.footer .copyright {
+  background-color: #777;
+  color: #fff;
+}
+/**/
+.page-designer-maker-directory h1.page-header {
+  border: 0;
+  font-size: 30px;
+  margin: 20px 0 0 0;
+}
+.view-display-id-page_about .views-field-discipline-8, .view-display-id-page_about .views-field-state-province, .view-display-id-page_about .views-field-commission-accepted-7 {
+  font-size: 20px;
+}
+.view-display-id-page_about .views-field.views-field-biography-9 {
+  margin: 20px 0;
+}
+.view-display-id-page_about > .row {
+  background-color: #fff;
+}
