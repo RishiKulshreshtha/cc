@@ -18,7 +18,7 @@ span#dropdown-menu {
   padding: 25px 0;
 }
 body.page-designer-makers-listing {
-  background-color: #ccc;
+  background-color: #f8f8f8;
 }
 h2.block-title {
   padding: 0 0 25px 0;
@@ -46,9 +46,7 @@ form#views-exposed-form-civicrm-page-list-of-dm {
 }
 .view-display-id-page_list_of_dm .views-row {
   text-align: center;
-  box-shadow: 0 0 7px #fff;
-  padding: 0;
-  margin: 30px 15px;
+  margin: 30px 0 0;
 }
 .view-display-id-page_list_of_dm .views-row:first-child {
   margin-left: 0;
@@ -84,4 +82,7 @@ form#views-exposed-form-civicrm-page-list-of-dm {
 }
 .view-display-id-page_about > .row {
   background-color: #fff;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  margin: auto;
 }

@@ -51,8 +51,7 @@
         <div class="view-content">
           <?php print $rows; ?>
         </div>
-      <?php
-elseif ($empty): ?>
+      <?php elseif ($empty): ?>
         <div class="view-empty">
           <?php print $empty; ?>
         </div>
@@ -92,8 +91,4 @@ elseif ($empty): ?>
       <?php print $feed_icon; ?>
     </div>
   <?php endif; ?>
-
-/* class view */
-</div><?php
- 
-
+</div>
